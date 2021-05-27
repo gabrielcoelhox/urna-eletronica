@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urna { 
+    background-color: #dbd5c9;
+    padding: 20px;
+    display: flex;
+}
+
+.tela {
+    width: 500px;
+    height: 320px;
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+    border: 2px solid #555;
+}
+
+.nome {
+    width: 280px;
+    height: 60px;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 534px;
+}
+
+.nome--urna{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.teclado {
+    background-color: #403a3a;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.teclado--linha {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.teclado--botao {
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    color: #FFF;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #555;
+    border-radius: 2px;
+}
+
+.btn--branco {
+    background-color: #FFF;
+    color: #000;
+    font-size: 14px;
+}
+
+.btn--corrige {
+    background-color: #F09046;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn--confirma {
+    background-color: #48c079;
+    color: #000;
+    font-size: 13px;
+    width: 80px;
+    height: 50px;
+    font-weight: bold;
+}
