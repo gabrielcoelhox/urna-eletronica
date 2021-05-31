@@ -1,6 +1,6 @@
 :computer: Atualizado em 31 de Maio de 2021 :computer:
 
-# Projeto Digital - Criando a urna eletrônica
+# Projeto / Exercício - Criando a urna eletrônica
 
 ## Descrição
 
