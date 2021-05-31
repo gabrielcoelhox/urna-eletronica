@@ -1,6 +1,6 @@
 let etapas = [
     {
-        titulo: 'GOVERNADOR',
+        titulo: 'VEREADOR',
         numeros: 2,
         candidatos: [
             {
@@ -22,7 +22,7 @@ let etapas = [
         ]
     },
     {
-        titulo: 'PRESIDENTE',
+        titulo: 'PREFEITO',
         numeros: 2,
         candidatos: [
             {
